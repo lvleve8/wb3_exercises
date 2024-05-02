@@ -2,24 +2,18 @@
 
 function convertFtoC(someTemp){
 
-//setup variables for cel to far
-let fahrenheit =someTemp
-let celsius = (fahrenheit-32)*5/9;
+    //setup variables for farenheight to celcius
+    let fahrenheit = someTemp;
+    let celsius = (fahrenheit - 32) * 5 / 9;
 
-return celsius;
-
-
+    //return the value of the calc as output from the function
+    return celsius;
 
 }
 
-console.log("converting 212 from Fto C:"+convertFtoC(212));
-console.log("converting 90 from Fto C:"+convertFtoC(90));
-console.log("converting 72 from Fto C:"+convertFtoC(72));
-console.log("converting 32 from Fto C:"+convertFtoC(32));
-console.log("converting 0 from Fto C:"+convertFtoC(0));
-
-
-
-
-
-
+console.log("converting 212 from F to C: " + convertFtoC(212) );
+console.log("converting 90 from F to C: " + convertFtoC(90) );
+console.log("converting 72 from F to C: " + convertFtoC(72) );
+console.log("converting 32 from F to C: " + convertFtoC(32) );
+console.log("converting 0 from F to C: " + convertFtoC(0) );
+console.log("converting -40 from F to C: " + convertFtoC(-40) );
